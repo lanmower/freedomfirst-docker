@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
-ENV PRIVKEY
-ENV PUBKEY
-ENV NAME
+ENV PRIVKEY xxx
+ENV PUBKEY xxx
+ENV NAME xxx
 RUN apt-get update
 RUN apt-get install wget -y
 RUN apt-get install git -y
