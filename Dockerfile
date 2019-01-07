@@ -3,6 +3,7 @@ RUN apt-get update
 RUN apt-get install git -y
 RUN git clone https://github.com/lanmower/bling.git
 RUN cd bling
+RUN ls
 RUN ./install.sh
 RUN ./genesis_start.sh
 RUN sleep 5
