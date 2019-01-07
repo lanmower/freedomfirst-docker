@@ -7,5 +7,5 @@ RUN ls
 RUN /bling/install.sh
 RUN /bling/genesis_start.sh
 RUN sleep 5
-RUN ./stop.sh
-RUN ./start.sh
+RUN ./bling/stop.sh
+RUN ./bling/start.sh
